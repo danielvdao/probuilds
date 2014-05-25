@@ -16,3 +16,6 @@ page = Nokogiri::HTML(open(page_url))
 puts page.class # => Nokogiri::HTML::Document
 
 puts page.css("title")[0].text 
+
+#Pulling nested HTML 
+puts page.css("div.pro-player-feed-5").css("div.time")[0].text
