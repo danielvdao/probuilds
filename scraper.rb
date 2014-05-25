@@ -19,3 +19,9 @@ puts page.css("title")[0].text
 
 #Pulling nested HTML 
 puts page.css("div.pro-player-feed-5").css("div.time")[0].text
+
+#Time to try pulling actual player names and the stats they had  
+puts page.css("div.block.alt").css("div.player.gold").css("div.gold")[0].text.strip!
+
+print "Played: "
+puts page.css("div.block.alt").css("div.time")[0].text
