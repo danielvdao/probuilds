@@ -11,7 +11,5 @@ Look at build patterns, win rates with builds, longevity of player with build (K
 TODO
 
 ~~Implement pulling from div classes.~~
-
 ~~Implement pulling nested classes.~~
-
 Implement selecting all player data and builds.
